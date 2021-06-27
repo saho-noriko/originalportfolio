@@ -1,5 +1,6 @@
+/* header */
 header{
-  background: radial-gradient(ellipse farthest-side,#EEEEEE, #808080);
+  background: radial-gradient(ellipse farthest-side,#d6cdcd, #808080);
   display: flex;
   
 }
@@ -9,9 +10,8 @@ header h1{
   color: #EEEEEE;
   font-size: 200px;
   font-family: "Yu Gothic";
-  font-weight: 700;
-  padding: 50px 110px 0 110px;
- 
+  font-weight: 700px;
+  margin: 100px 0 0 100px;
 }
 
 .img1{
@@ -19,11 +19,14 @@ header h1{
 }
 
 .img2{
-  position:absolute; top:10px; left:10px
+ position:absolute; top:10px; left:10px;
+ background-color: #EEEEEE;
+  
 }
 
 .img3{
-  position:absolute; top:10px; left:1800px
+  position:absolute; top:10px; left:1800px;
+  background-color: #EEEEEE;
 }
 header p{
   color: #EEEEEE;
@@ -32,22 +35,186 @@ header p{
   padding: 0 110px;
 }
 
+/* about */
 
 .block-main{
-  margin: 70px ;
+font-family: Tahoma;
+font-weight: 100px;
+}
+
+
+/* .about-list img{
+  
+} */
+
+.color-white{
+  color: #EEEEEE;
+  font-size: 30px;
+  font-family: "Yu Gothic";
+}
+
+.color-brack{
+  color: black;
+  font-size: 30px;
+  font-family: "Yu Gothic";
 }
 
 .about-list{
-  font-family: Tahoma;
-  font-weight: 100;
+  font-size: 40px;
+  display: flex;
+  
 }
-.about-list img{
-  padding: 10px 0 10px 800px;
+
+
+
+.about-list b{
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 50px;
 }
+.about-list p{
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 50px;
+}
+
+.about-list .list ul{
+  display: flex;
+  list-style: none;
+  color: black;
+  margin: 0;
+}
+
+.io{
+  padding: 0 0 0 0;
+  margin: 0;
+}
+
+
+
+.about-list .list2 ul img{
+  margin: 0;
+  padding: 0 0 0 40px;
+}
+/*  */
+
+.box-projects{
+  background: radial-gradient(ellipse farthest-side,#d6cdcd, #808080);
+  font-family: "Yu Gothic";
+}
+
+.box-projects h2{
+  color: #EEEEEE;
+  margin: 0px 50px 0 50px;
+  padding: 50px 50px 0 50px;
+  font-size: 50px;
+}
+.box-projects ul{
+  display: flex;
+  list-style: none;
+  margin: 50px 50px 0 50px;
+  
+}
+.box-projects ul img{
+  padding: 0 50px 0 0;
+  
+}
+.box-projects2 ul{
+  display: flex;
+  list-style: none;
+  margin: 0 50px;
+}
+.box-projects2 ul img{
+  padding: 0 50px 0 0;
+  
+}
+/* contacts */
+
+.contacts-list{
+  background-color: rgb(73, 82, 82);
+}
+
+.contacts-list ul{
+  list-style: none;
+}
+
+.contacts-list ul img{
+  margin: 15px 0;
+}
+.contacts-list img{
+  margin: 0 22px 0 0;
+}
+.netflix-list h3{
+  font-size: 40px;
+}
+
+.netflix-list p{
+  font-size: 30px;
+ }
+
+ 
+ .netflix-list{
+  padding: 100px 0 0 0 ;
+ }
+ 
+
+.box-projects li p{
+  color: #EEEEEE;
+  font-family: "Yu Gothic";
+  font-size: 30px;
+}
+
+.box-projects li h3{
+  color: #EEEEEE;
+  font-family: "Yu Gothic";
+  font-size: 40px;
+}
+
+.link a{
+  background-color:white;
+  padding: 15px 40px;
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.link a2{
+  padding: 15px 40px;
+  /* margin-right: 30px; */
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border-style: ridge;
+  
+}
+.link a3{
+  background-color: #ffffff;
+  padding: 15px 40px;
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border-style: ridge;
+  border-color: black;
+}
+.link a4{
+  background-color:gray;
+  padding: 15px 40px;
+  /* margin-right: 30px; */
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.list{
+  color: #EEEEEE;
+  padding: 50px;
+}
+/* footer */
 
 .block-footer{
   background-color: gray;
   text-align: center;
-  padding: 20px 20px;
+ padding: 18px;
   color: #EEEEEE;
 }
